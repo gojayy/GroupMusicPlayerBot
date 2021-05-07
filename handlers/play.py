@@ -105,8 +105,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Cara Penggunaan",
-                        url="https://t.me/boimusicbotinfo/17")
+                        text="ᴄᴀʀᴀ ᴘᴇɴɢɢᴜɴᴀᴀɴ",
+                        url="https://telegra.ph/CARA-PENGGUNAAN-05-07")
                    
                 ]
             ]
@@ -123,7 +123,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/a58d286859538f27dd48b.png"
+        thumb_name = "https://telegra.ph/file/0ec59ebcdf4670b81e55f.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -131,8 +131,8 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Cara Penggunaan",
-                            url=f"https://t.me/boimusicbotinfo/17")
+                            text="ᴄᴀʀᴀ ᴘᴇɴɢɢᴜɴᴀᴀɴ",
+                            url=f"https://telegra.ph/CARA-PENGGUNAAN-05-07")
 
                     ]
                 ]
@@ -160,7 +160,7 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Tonton di YouTube",
+                                text="ᴛᴏɴᴛᴏɴ ᴅɪ ʏᴏᴜᴛᴜʙᴇ",
                                 url=f"{url}")
 
                         ]
@@ -168,14 +168,14 @@ async def play(_, message: Message):
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a58d286859538f27dd48b.png"
+            thumb_name = "https://telegra.ph/file/0ec59ebcdf4670b81e55f.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="Tonton di YouTube",
+                                text="ᴛᴏɴᴛᴏɴ ᴅɪ ʏᴏᴜᴛᴜʙᴇ",
                                 url=f"https://youtube.com")
 
                         ]
@@ -222,7 +222,7 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Watch On YouTube",
+                            text="ᴛᴏɴᴛᴏɴ ᴅɪ ʏᴏᴜᴛᴜʙᴇ",
                             url=f"{url}")
 
                     ]
