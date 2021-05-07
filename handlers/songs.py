@@ -45,13 +45,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("Sedang mengunduh lagu oleh @boimusic_bot...")
+    m.edit("Sedang mengunduh lagu oleh @jayymusicbot...")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 Lagu diunggah oleh @boimusic_bot**'
+        rep = '**🎵 Lagu diunggah oleh @jayymusicbot**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
