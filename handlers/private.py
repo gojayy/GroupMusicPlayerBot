@@ -23,7 +23,7 @@ Masukkan saya kedalam grup, dan dengarkan musik sepuasnya!
                         "ᴏᴡɴᴇʀ", url="https://t.me/ifcksht"
                     ),
                     InlineKeyboardButton(
-                        "ɪɴsᴛᴀɢʀᴀᴍ", url="https://www.instagram.com/arfrhmndani_"
+                        "ɪɴsᴛᴀɢʀᴀᴍ", url="https://www.instagram.com/arfrhmndani_/"
                     )
                 ]
             ]
