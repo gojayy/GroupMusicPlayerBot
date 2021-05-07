@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
+    await message.reply_sticker("CAACAgIAAxkBAAEJwOBglMyU7frT-mByTBO5lQq2ZpD9ywACbxIAAlEOoEitB1o5LyEHaR8E")
     await message.reply_text(
         f"""Halo, saya adalah {bn}!
 Saya adalah bot Music yang dirancang khusus untuk menemani anda memutar musik dalam grup melalui obrolan suara.
@@ -17,13 +17,13 @@ Masukkan saya kedalam grup, dan dengarkan musik sepuasnya!
             [
                 [
                     InlineKeyboardButton(
-                        "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
+                        "ᴄᴀʀᴀ ᴘᴇɴɢɢᴜɴᴀᴀɴ", url="https://telegra.ph/CARA-PENGGUNAAN-05-07")
                   ],[
                     InlineKeyboardButton(
-                        "OWNER BOT", url="https://t.me/boiii999"
+                        "ᴏᴡɴᴇʀ", url="https://t.me/ifcksht"
                     ),
                     InlineKeyboardButton(
-                        "INSTAGRAM", url="https://www.instagram.com/aipmarvelous/"
+                        "ɪɴsᴛᴀɢʀᴀᴍ", url="https://www.instagram.com/arfrhmndani_"
                     )
                 ]
             ]
@@ -38,7 +38,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
+                        "ᴄᴀʀᴀ ᴘᴇɴɢɢᴜɴᴀᴀɴ", url="https://telegra.ph/CARA-PENGGUNAAN-05-07")
                 ]
             ]
         )
